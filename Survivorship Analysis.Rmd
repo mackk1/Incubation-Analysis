@@ -5,3 +5,57 @@ date: "2/12/2016"
 output: pdf_document
 ---
 
+```{r}
+KM_Survival <- read.csv("~/Incubation Analysis/Trial1_survival.csv")
+names(KM_Survival)
+sapply(KM_Survival, class)
+library(survival)
+library(KMsurv)
+
+plot(KM_Survival$Site, KM_Survival$Duration)
+plot(KM_Survival$Sex, KM_Survival$Duration)
+
+glm1 = glm(Duration ~ Block+Site+Sex, Gamma, data=KM_Survival)
+summary(glm1)
+
+plot(survfit(Surv(KM_Survival$Duration,KM_Survival$Status)~KM_Survival$Block+KM_Survival$Site+KM_Survival$Sex), conf.int='none', lty=c(1:8), col = 'blue', xlab ='Time (hours)', ylab = 'Survival Probability')
+
+model=survreg(Surv(KM_Survival$Duration,KM_Survival$Status)~KM_Survival$Block+KM_Survival$Site+KM_Survival$Sex)
+summary(model)
+
+tapply(KM_Survival$Duration,KM_Survival$Site,mean)
+
+```
+Lets try without blocks
+
+```{r}
+plot(survfit(Surv(KM_Survival$Duration,KM_Survival$Status)~KM_Survival$Site+KM_Survival$Sex), conf.int='none', lty=c(1:16), xlab ='Time (hours)', ylab = 'Survival Probability')
+
+
+
+
+
+
+```
+
+
+
+Ok Focus up, bitch. Lets start just by looking at sex. We know it is the most significant. Females are hardier.
+
+```{r}
+attach(KM_Survival) #i know dan says this is a BIG no-no, "data=" isnt working and the alternative "KM_Survival$" is too much of a pain in the ass
+
+plot(Sex,Duration)
+
+#first, just males and females, regardless of site. We will work in site later
+plot(survfit(Surv(Duration,Status)~Sex),lty=c(1,2),xlab ='Time (hours)', ylab = 'Survival Probability')
+legend(25,0.2,c('Females', 'Males'),lty=c(1,2))
+
+#establish that differences exist between sexes
+#plot females by site
+KM_Survival_F=subset(KM_Survival, Sex =="Female")
+
+
+```
+
+
