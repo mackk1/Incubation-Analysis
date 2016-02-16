@@ -2,8 +2,11 @@
 title: "Survivorship Analysis"
 author: "Kevin Mack"
 date: "2/12/2016"
-output: pdf_document
+output: html_document
 ---
+Exploratory Analysis
+--
+
 
 ```{r}
 KM_Survival <- read.csv("~/Incubation Analysis/Trial1_survival.csv")
@@ -18,6 +21,9 @@ plot(KM_Survival$Sex, KM_Survival$Duration)
 glm1 = glm(Duration ~ Block+Site+Sex, Gamma, data=KM_Survival)
 summary(glm1)
 
+glm2 = glm(Duration ~Block*Site*Sex, Gamma, data=KM_Survival)
+summary(glm2)
+
 plot(survfit(Surv(KM_Survival$Duration,KM_Survival$Status)~KM_Survival$Block+KM_Survival$Site+KM_Survival$Sex), conf.int='none', lty=c(1:8), col = 'blue', xlab ='Time (hours)', ylab = 'Survival Probability')
 
 model=survreg(Surv(KM_Survival$Duration,KM_Survival$Status)~KM_Survival$Block+KM_Survival$Site+KM_Survival$Sex)
@@ -26,36 +32,129 @@ summary(model)
 tapply(KM_Survival$Duration,KM_Survival$Site,mean)
 
 ```
-Lets try without blocks
+
+Analysis of Sex
+--
+
+First, I construct a boxplot and survivorship curves for males vs females. 
+
+Next, I run a GLM to test the effect of Block and Sex on survivorship, it gives a significant result of sex, despite the block effect, and does not indicate any interaction effect. 
+
+Next, a survivorship analysis tests if there is a difference between the male and female survivorship curves. 
+
+Finally, a test of my model indicates that the survivorship probabilities I observed are very unlikely to occur randomly.
 
 ```{r}
-plot(survfit(Surv(KM_Survival$Duration,KM_Survival$Status)~KM_Survival$Site+KM_Survival$Sex), conf.int='none', lty=c(1:16), xlab ='Time (hours)', ylab = 'Survival Probability')
+plot(KM_Survival$Sex,KM_Survival$Duration)
 
-
-
-
-
-
-```
-
-
-
-Ok Focus up, bitch. Lets start just by looking at sex. We know it is the most significant. Females are hardier.
-
-```{r}
-attach(KM_Survival) #i know dan says this is a BIG no-no, "data=" isnt working and the alternative "KM_Survival$" is too much of a pain in the ass
-
-plot(Sex,Duration)
-
-#first, just males and females, regardless of site. We will work in site later
-plot(survfit(Surv(Duration,Status)~Sex),lty=c(1,2),xlab ='Time (hours)', ylab = 'Survival Probability')
+plot(survfit(Surv(Duration,Status)~Sex, data=KM_Survival),lty=c(1,2),xlab ='Time (hours)', ylab = 'Survival Probability')
 legend(25,0.2,c('Females', 'Males'),lty=c(1,2))
 
-#establish that differences exist between sexes
+glm_sex = glm(Duration ~ Block+Sex, Gamma, data=KM_Survival) #general linear model
+glm_sex
+summary(glm_sex) #Despite the block effect, probability of survivorship differs significantly by sex. There is no interaction between sex and block.
+
+difference_sex = survdiff(Surv(Duration,Status)~Block+Sex, data=KM_Survival) #tests if there is a difference between survival curves
+difference_sex
+
+model_sex=survreg(Surv(Duration,Status)~Block*Sex, data=KM_Survival) #Tests the fit of my model
+summary(model_sex)
+
+tapply(KM_Survival$Duration,KM_Survival$Sex,mean)
+
+#establishes that differences exist between sexes
+```
+
+Analysis of Sex by Site
+--
+Females by site
+-
+Generates boxplot messy survivorship curves
+
+GLM shows significant block effect, and that at one site female survivorship is significantly different from the others. Generally, females responded the same
+
+```{r}
 #plot females by site
 KM_Survival_F=subset(KM_Survival, Sex =="Female")
 
+plot(KM_Survival_F$Site,KM_Survival_F$Duration)
+
+plot(survfit(Surv(Duration,Status)~Site, data=KM_Survival_F),lty=c(1:8),xlab ='Time (hours)', ylab = 'Survival Probability')
+legend(25,0.5,c('Bly Creek', 'Bowens Island', 'Extension Office','Grice','Pinckney','Roebling House','Town Creek', 'Trask'),lty=c(1,8))
+
+glm_F = glm(Duration ~ Block+Site, Gamma, data=KM_Survival_F) 
+glm_F
+summary(glm_F)
+
+difference_F = survdiff(Surv(Duration,Status)~Block+Site, data=KM_Survival_F) 
+difference_F
+
+model_F=survreg(Surv(Duration,Status)~Block+Site, data=KM_Survival_F) 
+summary(model_F)
+
+tapply(KM_Survival_F$Duration,KM_Survival_F$Site,mean)
+
 
 ```
+
+Males by Site
+-
+Generates boxplot and messy survivorship curves. Curves for males clearly drop off more quickly than females
+
+GLM shows block effect, and that males at some sites responded differently than others
+
+```{r}
+#plot females by site
+KM_Survival_M=subset(KM_Survival, Sex =="Male")
+
+plot(KM_Survival_M$Site,KM_Survival_M$Duration)
+
+plot(survfit(Surv(Duration,Status)~Site, data=KM_Survival_M),lty=c(1:8),xlab ='Time (hours)', ylab = 'Survival Probability')
+legend(25,0.5,c('Bly Creek', 'Bowens Island', 'Extension Office','Grice','Pinckney','Roebling House','Town Creek', 'Trask'),lty=c(1,8))
+
+glm_M = glm(Duration ~ Block+Site, Gamma, data=KM_Survival_M) 
+glm_M
+summary(glm_M)
+
+difference_M = survdiff(Surv(Duration,Status)~Block+Site, data=KM_Survival_M) 
+difference_M
+
+model_M=survreg(Surv(Duration,Status)~Block+Site, data=KM_Survival_M) 
+summary(model_M)
+
+tapply(KM_Survival_M$Duration,KM_Survival_M$Site,mean)
+```
+
+Analysis of Site
+--
+First, I generate a boxplot and survivorship curves for each site. 
+
+Next, I run a GLM to determine differences between sites. Trask, Roebling House, Pinckney, and Grice differ. Needs further analysis
+
+Next, I run a survivorship analysis to test differences in my curves
+
+Finally, I test the fit of my model
+
+```{r}
+plot(KM_Survival$Site,KM_Survival$Duration)
+
+plot(survfit(Surv(Duration,Status)~Site, data=KM_Survival),lty=c(1:8),xlab ='Time (hours)', ylab = 'Survival Probability')
+legend(25,0.5,c('Bly Creek', 'Bowens Island', 'Extension Office','Grice','Pinckney','Roebling House','Town Creek', 'Trask'),lty=c(1,8))
+
+glm_site = glm(Duration ~ Block+Site, Gamma, data=KM_Survival) #general linear model
+glm_site
+summary(glm_site) #Despite the block effect, probability of survivorship differs significantly but only in certian sites?. 
+
+difference_site = survdiff(Surv(Duration,Status)~Site, data=KM_Survival) #tests if there is a difference between survival curves
+difference_site
+
+model_site=survreg(Surv(Duration,Status)~Block*Site, data=KM_Survival) #Tests the fit of my model
+summary(model_site)
+
+tapply(KM_Survival$Duration,KM_Survival$Site,mean)
+
+```
+
+
 
 
