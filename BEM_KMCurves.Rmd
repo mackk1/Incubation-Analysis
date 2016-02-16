@@ -2,7 +2,7 @@
 title: "KM Log Rank"
 author: "Kevin Mack"
 date: "Tuesday, January 19, 2016"
-output: pdf_document
+output: word_document
 ---
 ```{r}
 KM_Survival <- read.csv("~/Incubation Analysis/Trial1_survival.csv")
@@ -58,6 +58,13 @@ rh_m=survfit(Surv(Duration[Site=="Roebling House"], Status[Site=="Roebling House
 
 ```{r}
 #Plotting Survivor Curves
+#All Blocks by Sex
+ plot(male,conf.int='none', col = 'black', lty=c(1), xlab =
+'Time (hours)', ylab = 'Survival Probability')
+lines(female,conf.int='none', col = 'black', lty=c(2))
+title(main='KM-Curves: Sex')
+legend(x='bottomleft',c('Females', 'Males'),col='black',lwd=1,lty=c(2,1))
+
 #All Blocks by Site
  plot(bc,conf.int='none', col = 'blue', xlab ='Time (hours)', ylab = 'Survival Probability')
 lines(tc,conf.int='none', col = 'blue')
@@ -69,13 +76,6 @@ lines(mex,conf.int='none', col = 'darkorange4')
 lines(rh,conf.int='none', col = 'darkorange4')
 title(main='KM-Curves: Site')
 legend(x='bottomleft',c('Bly Creek', 'Town Creek','Grice','Bowens Island','Trask','Pinckney','Extension Office','Roebling House'),col=c('blue','blue','red','red','darkgreen','darkgreen','darkorange4','darkorange4'),lwd=1, lty=c(1))
-
-#All Blocks by Sex
- plot(male,conf.int='none', col = 'black', lty=c(1), xlab =
-'Time (hours)', ylab = 'Survival Probability')
-lines(female,conf.int='none', col = 'black', lty=c(2))
-title(main='KM-Curves: Sex')
-legend(x='bottomleft',c('Females', 'Males'),col='black',lwd=1,lty=c(2,1))
 
 ```
 
