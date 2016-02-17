@@ -2,7 +2,7 @@
 title: "Survivorship Analysis"
 author: "Kevin Mack"
 date: "2/12/2016"
-output: word_document
+output: pdf_document
 ---
 Exploratory Analysis
 --
@@ -16,6 +16,7 @@ names(KM_Survival)
 sapply(KM_Survival, class)
 KM_Survival$Block=as.factor(KM_Survival$Block)
 sapply(KM_Survival, class)
+
 library(survival)
 library(KMsurv)
 
@@ -28,6 +29,22 @@ drop1(fit1,~.,test='F')
 plot(KM_Survival$Sex, KM_Survival$Duration)
 plot(KM_Survival$Site, KM_Survival$Duration)
 
+#KM Curves of main effects
+mod1=survfit(Surv(Duration,Status)~Block+Site+Sex, data=KM_Survival)
+names(mod1)
+plot(mod1, ylab='survival probabilty', xlab='Duration', main='Model 1') #disregard everything
+
+#Log Rank test of main effects tests for differences
+mod1_dif=survdiff(Surv(Duration,Status)~Block+Site+Sex, data=KM_Survival)
+mod1_dif
+
+#Cox proportional hazards model fit
+mod1_cox=coxph(Surv(Duration,Status)~Block+Site+Sex, data=KM_Survival)
+summary(mod1_cox)
+
+#ANOVA of main effects 
+anova(mod1_cox)
+
 ```
 
 Analysis of Sex
@@ -37,25 +54,28 @@ First, I show the mean duration for females and males, and create a basic surviv
 
 Next, I run a GLM to test the effect of Block and Sex on survivorship, it gives a significant result of sex, despite the block effect. 
 
-Next, a survivorship analysis tests if there is a difference between the male and female survivorship curves. This test shows that survivorship curves differ significantly. 
+Next, a survivorship analysis tests (log rank test) if there is a difference between the male and female survivorship curves. This test shows that survivorship curves differ significantly. 
 
 Finally, a test of my model indicates that the survivorship probabilities I observed are very unlikely to occur randomly.
 
-```{r}
+```{r echo=FALSE}
+#Mean duration of sexes
 tapply(KM_Survival$Duration,KM_Survival$Sex,mean)
 
+#KM Curve
 plot(survfit(Surv(Duration,Status)~Sex, data=KM_Survival),lty=c(1,2),xlab ='Time (hours)', ylab = 'Survival Probability')
 legend(25,0.2,c('Females', 'Males'),lty=c(1,2))
 
-glm_sex = glm(Duration ~ Block+Sex, Gamma, data=KM_Survival) #general linear model
-glm_sex
-summary(glm_sex) #Despite the block effect, probability of survivorship differs significantly by sex. There is no interaction between sex and block.
+#log rank test of main effects tests for differences between sexes
+sex_dif = survdiff(Surv(Duration,Status)~Block+Sex, data=KM_Survival) #tests if there is a difference between survival curves
+sex_dif
 
-difference_sex = survdiff(Surv(Duration,Status)~Block+Sex, data=KM_Survival) #tests if there is a difference between survival curves
-difference_sex
+#Cox proportional hazards model fit
+sex_cox = coxph(Surv(Duration,Status)~Block+Sex, data=KM_Survival)
+summary(sex_cox)
 
-model_sex=survreg(Surv(Duration,Status)~Block*Sex, data=KM_Survival) #Tests the fit of my model
-summary(model_sex)
+#ANOVA of Sex Differences 
+anova(sex_cox)
 
 #establishes that differences exist between sexes
 ```
@@ -71,23 +91,25 @@ Next, I run a survivorship analysis to test differences in my curves.
 Finally, I test the fit of my model
 
 ```{r}
+#Mean Duration by site
 tapply(KM_Survival$Duration,KM_Survival$Site,mean)
 
+#ugly KM curve
 plot(survfit(Surv(Duration,Status)~Site, data=KM_Survival),lty=c(1,2,3,4,5,6,7,8),xlab ='Time (hours)', ylab = 'Survival Probability')
 legend(25,0.5,c('Bly Creek', 'Bowens Island', 'Extension Office','Grice','Pinckney','Roebling House','Town Creek', 'Trask'),lty=c(1,2,3,4,5,6,7,8))
 
-glm_site = glm(Duration ~ Block+Site, Gamma, data=KM_Survival) #general linear model
-glm_site
-summary(glm_site) #Despite the block effect, probability of survivorship differs significantly but only in certian sites?. 
+#log rank test of main effects tests for differences between sites
+site_dif = survdiff(Surv(Duration,Status)~Block+Site, data=KM_Survival) #tests if there is a difference between survival curves
+site_dif
 
-difference_site = survdiff(Surv(Duration,Status)~Site, data=KM_Survival) #tests if there is a difference between survival curves
-difference_site
+#Cox proportional hazards model fit
+site_cox = coxph(Surv(Duration,Status)~Block+Site, data=KM_Survival)
+summary(site_cox)
 
-model_site=survreg(Surv(Duration,Status)~Block*Site, data=KM_Survival) #Tests the fit of my model
-summary(model_site)
+#ANOVA of Sex Differences 
+anova(site_cox)
 
-
-
+#establishes that differences exist between sites, and that Grice, Pinckney, and Roebling House are weakest?
 ```
 
 
@@ -133,7 +155,7 @@ First, I generate a boxplot and messy survivorship curves. Curves for males clea
 GLM shows block effect, and that males at some sites responded differently than others. The curves are significantly different, and the results are unlikely to occur by chance. 
 
 ```{r}
-#plot females by site
+#plot males by site
 KM_Survival_M=subset(KM_Survival, Sex =="Male")
 
 tapply(KM_Survival_M$Duration,KM_Survival_M$Site,mean)
