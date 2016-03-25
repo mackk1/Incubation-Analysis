@@ -1,0 +1,255 @@
+Block,Tray,Well,Region,Location,Site,Sex,CW,Duration,Status,Temperature
+1,1,A1,North,Charleston,Bowens Island,Female,4.61,122,1,7
+1,1,A2,North,Charleston,Bowens Island,Male,7.44,98,1,8
+1,1,A3,South,Hilton Head,Pinckney,Male,7.69,105,1,8
+1,1,A4,South,Savannah,Extension Office,Female,7.25,105,1,8
+1,1,A5,South,Savannah,Roebling House,Female,6.55,98,1,8
+1,1,A6,South,Hilton Head,Pinckney,Male,4.85,129,1,7
+1,1,A7,South,Savannah,Roebling House,Male,8.01,81,1,9
+1,1,A8,South,Savannah,Roebling House,Female,5.58,122,1,7
+1,1,B1,South,Hilton Head,Trask,Male,3.77,122,1,7
+1,1,B2,North,Baruch,Town Creek,Female,6.26,122,1,7
+1,1,B3,South,Savannah,Extension Office,Female,5.57,105,1,8
+1,1,B4,South,Hilton Head,Trask,Male,9.56,81,1,9
+1,1,B5,North,Baruch,Bly Creek,Female,6.51,105,1,8
+1,1,B6,South,Hilton Head,Trask,Male,5.57,105,1,8
+1,1,B7,North,Baruch,Bly Creek,Female,6.25,105,1,8
+1,1,B8,South,Savannah,Roebling House,Female,5.84,105,1,8
+1,1,C1,North,Charleston,Bowens Island,Male,5.73,122,1,7
+1,1,C2,North,Charleston,Grice,Male,6.41,122,1,7
+1,1,C3,South,Savannah,Extension Office,Male,6.44,98,1,8
+1,1,C5,North,Baruch,Town Creek,Female,5.93,122,1,7
+1,1,C6,North,Baruch,Town Creek,Female,4.93,122,1,7
+1,1,C7,South,Hilton Head,Pinckney,Male,8.86,105,1,8
+1,1,C8,North,Charleston,Grice,Female,6.35,105,1,8
+1,1,D1,North,Charleston,Bowens Island,Male,4.86,105,1,8
+1,1,D3,South,Hilton Head,Trask,Male,6.81,122,1,7
+1,1,D6,South,Savannah,Roebling House,Female,5.85,105,1,8
+1,1,D7,North,Baruch,Bly Creek,Female,5.96,122,1,7
+1,1,D8,South,Hilton Head,Trask,Female,5.33,105,1,8
+1,2,E1,North,Baruch,Bly Creek,Female,5.19,122,1,7
+1,2,E2,South,Savannah,Roebling House,Male,6.87,105,1,8
+1,2,E3,South,Hilton Head,Trask,Female,5.14,98,1,8
+1,2,E4,North,Charleston,Bowens Island,Female,5.94,105,1,8
+1,2,E5,South,Savannah,Extension Office,Female,4.43,122,1,7
+1,2,E6,North,Charleston,Bowens Island,Male,7.74,105,1,8
+1,2,E7,South,Hilton Head,Pinckney,Female,7.03,105,1,8
+1,2,E8,South,Hilton Head,Pinckney,Female,5.1,105,1,8
+1,2,F1,North,Baruch,Town Creek,Male,6.06,129,1,7
+1,2,F2,South,Hilton Head,Trask,Male,10.11,74,1,9.5
+1,2,F3,South,Savannah,Roebling House,Female,6.41,122,1,7
+1,2,F4,North,Charleston,Grice,Male,4.69,122,1,7
+1,2,F5,North,Baruch,Town Creek,Female,4.75,105,1,8
+1,2,F6,South,Hilton Head,Trask,Female,4.75,105,1,8
+1,2,F7,South,Hilton Head,Pinckney,Male,7.79,98,1,8
+1,2,F8,North,Baruch,Town Creek,Male,4.6,129,1,7
+1,2,G1,North,Baruch,Bly Creek,Male,6.26,105,1,8
+1,2,G2,South,Savannah,Roebling House,Male,4.94,129,1,7
+1,2,G3,North,Charleston,Bowens Island,Male,7.01,105,1,8
+1,2,G5,South,Savannah,Extension Office,Female,9.32,74,1,9.5
+1,2,G6,North,Charleston,Grice,Female,5.46,105,1,8
+1,2,G7,South,Savannah,Extension Office,Male,4.17,122,1,7
+1,2,G8,North,Charleston,Grice,Female,5.96,81,1,9
+1,2,H1,South,Savannah,Extension Office,Male,8.23,98,1,8
+1,2,H2,South,Savannah,Roebling House,Female,7.33,105,1,8
+1,2,H3,North,Charleston,Grice,Female,5.59,122,1,7
+1,2,H7,South,Hilton Head,Trask,Male,4.39,105,1,8
+1,2,H8,South,Savannah,Roebling House,Male,7.14,81,1,9
+1,3,I1,South,Hilton Head,Trask,Male,5.42,105,1,8
+1,3,I2,North,Baruch,Bly Creek,Male,11.33,105,1,8
+1,3,I3,North,Baruch,Town Creek,Male,6.15,105,1,8
+1,3,I4,North,Charleston,Grice,Female,4.1,122,1,7
+1,3,I5,North,Baruch,Town Creek,Male,11.22,74,1,9.5
+1,3,I6,South,Savannah,Roebling House,Female,5.72,98,1,8
+1,3,I7,North,Charleston,Bowens Island,Female,6.07,105,1,8
+1,3,I8,South,Savannah,Roebling House,Female,6.07,105,1,8
+1,3,J1,South,Hilton Head,Trask,Female,6.82,122,1,7
+1,3,J2,South,Hilton Head,Pinckney,Female,5.17,105,1,8
+1,3,J3,North,Baruch,Town Creek,Male,7.52,122,1,7
+1,3,J4,North,Charleston,Grice,Male,6.92,74,1,9.5
+1,3,J5,South,Savannah,Extension Office,Male,7.98,105,1,8
+1,3,J6,South,Savannah,Extension Office,Male,4.6,105,1,8
+1,3,J7,South,Hilton Head,Trask,Female,4.42,105,1,8
+1,3,J8,South,Hilton Head,Pinckney,Male,5.65,98,1,8
+1,3,K1,South,Savannah,Roebling House,Male,7.35,105,1,8
+1,3,K2,North,Baruch,Bly Creek,Male,10.53,98,1,8
+1,3,K3,North,Baruch,Bly Creek,Male,5.2,105,1,8
+1,3,K5,North,Charleston,Bowens Island,Female,5.56,105,1,8
+1,3,K6,North,Baruch,Bly Creek,Female,7.71,105,1,8
+1,3,K7,North,Charleston,Bowens Island,Female,6.95,105,1,8
+1,3,K8,North,Baruch,Bly Creek,Male,6.64,105,1,8
+1,3,L1,South,Savannah,Roebling House,Male,6.8,105,1,8
+1,3,L2,South,Savannah,Extension Office,Female,6.75,105,1,8
+1,3,L3,North,Baruch,Town Creek,Female,6.38,105,1,8
+1,3,L6,North,Charleston,Grice,Male,5.9,105,1,8
+1,3,L7,South,Hilton Head,Pinckney,Female,5.78,105,1,8
+1,3,L8,South,Hilton Head,Trask,Female,5.94,57,1,10
+2,1,A1,South,Savannah,Extension Office,Male,7.19,105,1,8
+2,1,A2,North,Baruch,Town Creek,Female,7.24,105,1,8
+2,1,A3,South,Hilton Head,Trask,Male,7.91,74,1,9
+2,1,A4,North,Baruch,Bly Creek,Female,6.93,105,1,8
+2,1,A5,South,Savannah,Roebling House,Male,3.98,105,1,8
+2,1,A6,South,Hilton Head,Pinckney,Female,6.84,122,1,7
+2,1,A7,South,Savannah,Roebling House,Female,9.17,57,1,10
+2,1,A8,South,Hilton Head,Pinckney,Male,6.82,57,1,10
+2,1,B1,North,Charleston,Bowens Island,Female,5.03,122,1,7
+2,1,B2,North,Charleston,Bowens Island,Male,5.28,105,1,8
+2,1,B3,South,Savannah,Extension Office,Female,4.48,122,1,7
+2,1,B4,North,Baruch,Bly Creek,Female,5.37,122,1,7
+2,1,B5,South,Hilton Head,Trask,Female,6.32,105,1,8
+2,1,B7,North,Charleston,Grice,Female,6.7,129,1,7
+2,1,B8,South,Savannah,Roebling House,Female,6.59,105,1,8
+2,1,C2,North,Charleston,Bowens Island,Female,6.99,98,1,8
+2,1,C3,North,Baruch,Bly Creek,Female,4.92,105,1,8
+2,1,C5,South,Savannah,Extension Office,Male,5.96,57,1,10
+2,1,C6,South,Savannah,Roebling House,Male,6.7,57,1,10
+2,1,C7,South,Hilton Head,Pinckney,Male,7.57,105,1,8
+2,1,C8,South,Hilton Head,Pinckney,Male,3.23,105,1,8
+2,1,D1,South,Hilton Head,Trask,Female,4.89,105,1,8
+2,1,D2,South,Hilton Head,Pinckney,Female,4.35,129,1,7
+2,1,D3,North,Baruch,Bly Creek,Male,5.98,57,1,10
+2,1,D6,South,Hilton Head,Trask,Male,6.32,105,1,8
+2,1,D7,South,Hilton Head,Trask,Male,7.26,105,1,8
+2,1,D8,South,Hilton Head,Pinckney,Female,4.87,122,1,7
+2,2,E1,North,Baruch,Bly Creek,Male,6.71,129,1,7
+2,2,E2,North,Baruch,Town Creek,Male,6.6,105,1,8
+2,2,E3,South,Hilton Head,Trask,Male,9.49,57,1,10
+2,2,E4,South,Hilton Head,Trask,Male,8.26,122,1,7
+2,2,E5,South,Hilton Head,Pinckney,Male,5.74,105,1,8
+2,2,E6,South,Savannah,Extension Office,Female,5.92,98,1,8
+2,2,E7,North,Charleston,Grice,Male,4.56,57,1,10
+2,2,E8,North,Charleston,Grice,Male,8.63,57,1,10
+2,2,F1,South,Hilton Head,Pinckney,Male,8.08,57,1,10
+2,2,F2,North,Baruch,Town Creek,Female,5.65,57,1,10
+2,2,F3,North,Baruch,Bly Creek,Male,5.96,105,1,8
+2,2,F4,North,Charleston,Bowens Island,Male,5.38,105,1,8
+2,2,F5,North,Charleston,Bowens Island,Male,5.19,57,1,10
+2,2,F6,North,Baruch,Town Creek,Female,8.84,57,1,10
+2,2,F7,South,Hilton Head,Pinckney,Male,8.12,57,1,10
+2,2,F8,North,Charleston,Bowens Island,Female,5.74,122,1,7
+2,2,G1,South,Hilton Head,Pinckney,Female,5.57,105,1,8
+2,2,G2,North,Charleston,Grice,Female,5.05,122,1,7
+2,2,G3,North,Baruch,Town Creek,Male,4.63,57,1,10
+2,2,G5,South,Savannah,Roebling House,Female,7.51,105,1,8
+2,2,G6,North,Baruch,Town Creek,Female,7.83,105,1,8
+2,2,G7,South,Savannah,Extension Office,Male,7.79,105,1,8
+2,2,G8,South,Savannah,Extension Office,Female,6.77,105,1,8
+2,2,H1,North,Baruch,Town Creek,Male,5.9,105,1,8
+2,2,H2,North,Charleston,Grice,Female,6.45,105,1,8
+2,2,H3,South,Hilton Head,Trask,Female,4.54,105,1,8
+2,2,H6,South,Savannah,Extension Office,Male,5.99,105,1,8
+2,2,H7,South,Hilton Head,Pinckney,Female,5.59,105,1,8
+2,2,H8,North,Charleston,Grice,Female,6.22,105,1,8
+2,3,I1,North,Baruch,Town Creek,Male,7.56,105,1,8
+2,3,I2,South,Savannah,Extension Office,Male,6.79,74,1,9
+2,3,I3,North,Charleston,Grice,Male,8.74,81,1,9
+2,3,I4,South,Savannah,Roebling House,Male,7.66,105,1,8
+2,3,I5,North,Baruch,Bly Creek,Female,5.76,98,1,8
+2,3,I6,North,Charleston,Bowens Island,Male,7.69,105,1,8
+2,3,I7,North,Charleston,Grice,Female,7.19,57,1,10
+2,3,I8,South,Savannah,Extension Office,Male,9.77,105,1,8
+2,3,J1,North,Baruch,Bly Creek,Male,4.81,98,1,8
+2,3,J2,North,Baruch,Bly Creek,Female,5.71,129,1,7
+2,3,J3,South,Savannah,Extension Office,Female,4.34,129,1,7
+2,3,J4,North,Baruch,Town Creek,Female,6.04,122,1,7
+2,3,J5,South,Savannah,Roebling House,Female,5.43,98,1,8
+2,3,J6,North,Charleston,Bowens Island,Male,4.85,105,1,8
+2,3,J7,North,Baruch,Town Creek,Male,8.25,105,1,8
+2,3,J8,South,Hilton Head,Pinckney,Male,8.44,105,1,8
+2,3,K1,South,Hilton Head,Trask,Female,4.61,98,1,8
+2,3,K2,North,Baruch,Town Creek,Female,5.5,129,1,7
+2,3,K3,North,Baruch,Bly Creek,Male,8.37,129,1,7
+2,3,K5,South,Savannah,Roebling House,Female,5.17,105,1,8
+2,3,K6,South,Savannah,Roebling House,Male,8.61,105,1,8
+2,3,K8,South,Hilton Head,Pinckney,Female,6.95,98,1,8
+2,3,L1,South,Savannah,Roebling House,Male,5.21,74,1,9
+2,3,L2,North,Charleston,Grice,Male,6.26,105,1,8
+2,3,L3,South,Savannah,Roebling House,Male,5.77,122,1,7
+2,3,L6,North,Charleston,Bowens Island,Female,6.7,50,1,10
+2,3,L7,South,Savannah,Roebling House,Female,6.71,105,1,8
+2,3,L8,South,Savannah,Extension Office,Female,7.44,105,1,8
+3,1,A1,North,Charleston,Bowens Island,Male,9.78,57,1,10
+3,1,A2,South,Hilton Head,Trask,Female,7.81,74,1,9
+3,1,A3,North,Charleston,Bowens Island,Female,5.42,129,1,7
+3,1,A4,South,Savannah,Extension Office,Female,5.16,98,1,8
+3,1,A5,North,Charleston,Grice,Female,5.11,105,1,8
+3,1,A6,North,Charleston,Bowens Island,Female,5.17,105,1,8
+3,1,A7,South,Savannah,Extension Office,Female,5.32,105,1,8
+3,1,A8,South,Savannah,Extension Office,Female,5.11,57,1,10
+3,1,B1,South,Hilton Head,Trask,Female,4.08,105,1,8
+3,1,B2,North,Charleston,Bowens Island,Female,8.26,105,1,8
+3,1,B3,South,Hilton Head,Trask,Female,5.97,105,1,8
+3,1,B4,North,Charleston,Grice,Male,5.68,105,1,8
+3,1,B5,North,Baruch,Bly Creek,Male,6.02,105,1,8
+3,1,B6,South,Savannah,Extension Office,Male,7.01,105,1,8
+3,1,B7,North,Baruch,Town Creek,Male,8.39,105,1,8
+3,1,B8,South,Hilton Head,Trask,Male,9.64,57,1,10
+3,1,C1,South,Savannah,Roebling House,Female,3.86,105,1,8
+3,1,C2,North,Baruch,Bly Creek,Male,5.88,122,1,7
+3,1,C3,North,Charleston,Grice,Male,7.7,105,1,8
+3,1,C5,North,Baruch,Town Creek,Female,5.96,57,1,10
+3,1,C6,North,Baruch,Bly Creek,Male,7.08,105,1,8
+3,1,C7,South,Hilton Head,Trask,Male,4.31,105,1,8
+3,1,C8,North,Charleston,Grice,Female,4.34,105,1,8
+3,1,D1,South,Savannah,Extension Office,Female,6.63,105,1,8
+3,1,D2,North,Baruch,Town Creek,Female,6.02,105,1,8
+3,1,D3,North,Baruch,Town Creek,Male,8.38,122,1,7
+3,1,D6,North,Charleston,Grice,Female,5.52,105,1,8
+3,1,D7,North,Baruch,Town Creek,Female,6.71,105,1,8
+3,1,D8,North,Baruch,Bly Creek,Male,4.81,57,1,10
+3,2,E1,South,Savannah,Roebling House,Male,7.21,57,1,10
+3,2,E3,South,Savannah,Extension Office,Male,4.47,105,1,8
+3,2,E4,South,Savannah,Roebling House,Male,7.38,74,1,9
+3,2,E5,South,Hilton Head,Pinckney,Male,7.9,57,1,10
+3,2,E6,North,Baruch,Bly Creek,Male,5.46,105,1,8
+3,2,E7,South,Hilton Head,Trask,Female,5.37,105,1,8
+3,2,E8,South,Hilton Head,Pinckney,Male,4.05,105,1,8
+3,2,F1,South,Savannah,Extension Office,Female,6.45,105,1,8
+3,2,F2,North,Charleston,Grice,Male,3.56,105,1,8
+3,2,F3,South,Hilton Head,Trask,Male,6.01,129,1,7
+3,2,F4,North,Charleston,Grice,Male,6.6,105,1,8
+3,2,F5,North,Charleston,Bowens Island,Female,4.91,105,1,8
+3,2,F6,South,Hilton Head,Trask,Male,5.56,105,1,8
+3,2,F7,South,Hilton Head,Pinckney,Female,6.12,105,1,8
+3,2,F8,North,Baruch,Town Creek,Male,11.51,74,1,9
+3,2,G1,South,Hilton Head,Pinckney,Male,4.74,105,1,8
+3,2,G2,South,Hilton Head,Pinckney,Male,9.7,57,1,10
+3,2,G3,South,Savannah,Roebling House,Male,4.92,105,1,8
+3,2,G5,North,Baruch,Bly Creek,Female,4.78,105,1,8
+3,2,G6,South,Hilton Head,Pinckney,Male,7.45,57,1,10
+3,2,G7,South,Savannah,Roebling House,Female,4.94,105,1,8
+3,2,G8,North,Charleston,Bowens Island,Male,5.94,105,1,8
+3,2,H1,South,Savannah,Extension Office,Female,4.44,129,1,7
+3,2,H3,North,Charleston,Bowens Island,Male,4.27,122,1,7
+3,2,H6,South,Savannah,Roebling House,Female,5.22,74,1,9
+3,2,H7,North,Charleston,Grice,Male,5.03,74,1,9
+3,2,H8,South,Savannah,Roebling House,Female,5.63,74,1,9
+3,3,I1,South,Hilton Head,Trask,Male,4.64,57,1,10
+3,3,I2,South,Savannah,Roebling House,Female,4.86,122,1,7
+3,3,I3,South,Hilton Head,Trask,Female,5.36,105,1,8
+3,3,I4,South,Hilton Head,Pinckney,Female,8.39,122,1,7
+3,3,I5,South,Savannah,Roebling House,Male,9.03,74,1,9
+3,3,I6,South,Savannah,Roebling House,Male,7.36,57,1,10
+3,3,I7,North,Charleston,Grice,Female,7.8,122,1,7
+3,3,I8,South,Savannah,Extension Office,Male,6.86,57,1,10
+3,3,J1,North,Baruch,Bly Creek,Female,9.62,105,1,8
+3,3,J2,South,Hilton Head,Pinckney,Female,5.9,105,1,8
+3,3,J3,South,Hilton Head,Pinckney,Female,5.78,105,1,8
+3,3,J4,North,Baruch,Bly Creek,Female,4.75,57,1,10
+3,3,J5,North,Charleston,Bowens Island,Male,7.15,98,1,8
+3,3,J6,South,Savannah,Extension Office,Male,7.74,105,1,8
+3,3,J7,South,Hilton Head,Pinckney,Female,5.79,105,1,8
+3,3,J8,South,Savannah,Extension Office,Male,4.04,57,1,10
+3,3,K1,North,Baruch,Town Creek,Female,7.18,122,1,7
+3,3,K2,South,Hilton Head,Trask,Female,5.6,57,1,10
+3,3,K3,North,Baruch,Bly Creek,Male,5.78,98,1,8
+3,3,K5,North,Charleston,Grice,Female,4.26,57,1,10
+3,3,K6,North,Charleston,Bowens Island,Female,4.59,105,1,8
+3,3,K7,North,Baruch,Bly Creek,Female,4.72,122,1,7
+3,3,K8,South,Hilton Head,Pinckney,Male,7.71,57,1,10
+3,3,L1,South,Savannah,Extension Office,Male,6.28,105,1,8
+3,3,L2,North,Baruch,Town Creek,Female,6.82,105,1,8
+3,3,L3,South,Hilton Head,Pinckney,Male,6.22,105,1,8
+3,3,L6,North,Baruch,Town Creek,Male,5.91,105,1,8
+3,3,L7,North,Charleston,Bowens Island,Male,4.21,105,1,8
+3,3,L8,North,Baruch,Town Creek,Male,7.27,57,1,10

@@ -1,261 +1,261 @@
-Block,Tray,Well,Location,Site,Sex,CW,Duration,Status,Temperature,Notes
-2,1,D3,Baruch,Bly Creek,Male,5.98,74,1,10.03,air temp
-3,2,G5,Baruch,Bly Creek,Female,4.78,122,1,8.2,air temp
-2,1,C3,Baruch,Bly Creek,Female,4.92,218,1,4,
-3,2,E6,Baruch,Bly Creek,Male,5.46,218,1,2,
-1,3,I2,Baruch,Bly Creek,Male,11.33,242,1,3.5,
-1,3,K8,Baruch,Bly Creek,Male,6.64,242,1,3.5,
-3,1,C6,Baruch,Bly Creek,Male,7.08,249,1,5,
-3,1,D8,Baruch,Bly Creek,Male,4.81,249,1,5,
-3,3,J1,Baruch,Bly Creek,Female,9.62,249,1,5,
-3,3,K3,Baruch,Bly Creek,Male,5.78,249,1,5,
-1,3,K2,Baruch,Bly Creek,Male,10.53,273,1,8,
-2,1,A4,Baruch,Bly Creek,Female,6.93,273,1,7.5,
-2,2,F3,Baruch,Bly Creek,Male,5.96,273,1,7,
-3,1,B5,Baruch,Bly Creek,Male,6.02,273,1,7,
-3,1,C2,Baruch,Bly Creek,Male,5.88,273,1,7,
-3,3,K7,Baruch,Bly Creek,Female,4.72,290,1,3,
-1,2,G1,Baruch,Bly Creek,Male,6.26,314,1,5,
-3,3,J4,Baruch,Bly Creek,Female,4.75,338,1,5,
-1,1,D7,Baruch,Bly Creek,Female,5.96,362,1,6.5,Molt
-1,3,K3,Baruch,Bly Creek,Male,5.2,362,1,7,Molt
-2,3,J2,Baruch,Bly Creek,Female,5.71,362,1,6.5,
-2,2,E1,Baruch,Bly Creek,Male,6.71,386,1,7,Molt
-1,2,E1,Baruch,Bly Creek,Female,5.19,393,1,11,Molt
-2,1,B4,Baruch,Bly Creek,Female,5.37,393,1,10.5,Molt
-1,1,B7,Baruch,Bly Creek,Female,6.25,410,1,7.5,Molt
-1,3,K6,Baruch,Bly Creek,Female,7.71,410,1,7.5,Molt
-2,3,I5,Baruch,Bly Creek,Female,5.76,410,1,7.5,Molt
-2,3,J1,Baruch,Bly Creek,Male,4.81,410,1,7.5,Molt
-1,1,B5,Baruch,Bly Creek,Female,6.51,434,1,9.5,Molt
-2,3,K3,Baruch,Bly Creek,Male,8.37,434,0,,Survived
-2,2,E2,Baruch,Town Creek,Male,6.6,129,1,6.7,air temp
-3,2,F8,Baruch,Town Creek,Male,11.51,129,1,6.7,air temp
-1,3,I5,Baruch,Town Creek,Male,11.22,146,1,7,
-3,1,D3,Baruch,Town Creek,Male,8.38,194,1,3,
-3,3,L6,Baruch,Town Creek,Male,5.91,201,1,5,
-3,3,L8,Baruch,Town Creek,Male,7.27,218,1,2.5,
-1,2,F5,Baruch,Town Creek,Female,4.75,225,1,7,
-2,2,G6,Baruch,Town Creek,Female,7.83,242,1,2,
-3,3,L2,Baruch,Town Creek,Female,6.82,242,1,2.5,
-2,2,G3,Baruch,Town Creek,Male,4.63,249,1,5,
-2,3,I1,Baruch,Town Creek,Male,7.56,249,1,5.5,
-2,3,J7,Baruch,Town Creek,Male,8.25,249,1,5.5,
-3,1,B7,Baruch,Town Creek,Male,8.39,249,1,5,
-3,1,D7,Baruch,Town Creek,Female,6.71,249,1,5,
-2,3,K2,Baruch,Town Creek,Female,5.5,273,1,7.5,
-3,1,C5,Baruch,Town Creek,Female,5.96,273,1,7,
-1,2,F1,Baruch,Town Creek,Male,6.06,290,1,4,
-1,3,J3,Baruch,Town Creek,Male,7.52,290,1,4.5,
-1,2,F8,Baruch,Town Creek,Male,4.6,297,1,5.5,
-1,1,C6,Baruch,Town Creek,Female,4.93,314,1,5,
-1,3,I3,Baruch,Town Creek,Male,6.15,314,1,5,
-3,1,D2,Baruch,Town Creek,Female,6.02,314,1,4,
-2,2,F6,Baruch,Town Creek,Female,8.84,321,1,5,
-2,2,H1,Baruch,Town Creek,Male,5.9,338,1,5,
-2,2,F2,Baruch,Town Creek,Female,5.65,386,1,7,Molt
-2,3,J4,Baruch,Town Creek,Female,6.04,410,1,7.5,Molt
-3,3,K1,Baruch,Town Creek,Female,7.18,410,1,7,Molt
-1,1,B2,Baruch,Town Creek,Female,6.26,434,1,9.5,Molt
-1,3,L3,Baruch,Town Creek,Female,6.38,434,1,9.5,Molt
-2,1,A2,Baruch,Town Creek,Female,7.24,434,1,9.5,Molt
-1,1,C5,Baruch,Town Creek,Female,5.93,434,0,,Survived
-1,2,H6,Charleston,Grice,Male,10.59,74,1,9.5,
-1,2,F4,Charleston,Grice,Male,4.69,153,1,7,
-3,3,I7,Charleston,Grice,Female,7.8,170,1,5,
-2,3,I3,Charleston,Grice,Male,8.74,194,1,4.5,
-3,1,B4,Charleston,Grice,Male,5.68,194,1,3,
-3,2,H7,Charleston,Grice,Male,5.03,194,1,3,
-3,2,F2,Charleston,Grice,Male,3.56,201,1,5,
-3,2,F4,Charleston,Grice,Male,6.6,201,1,5,
-1,3,J4,Charleston,Grice,Male,6.92,218,1,4.5,
-2,3,L2,Charleston,Grice,Male,6.26,218,1,3.5,
-3,1,C3,Charleston,Grice,Male,7.7,225,1,5.5,
-3,1,C8,Charleston,Grice,Female,4.34,225,1,5.5,
-2,2,E8,Charleston,Grice,Male,8.63,242,1,2,
-3,1,A5,Charleston,Grice,Female,5.11,242,1,2,
-3,1,D6,Charleston,Grice,Female,5.52,242,1,2,
-1,2,G6,Charleston,Grice,Female,5.46,249,1,5.5,
-1,2,G8,Charleston,Grice,Female,5.96,249,1,5.5,
-2,2,E7,Charleston,Grice,Male,4.56,249,1,5,
-1,2,H3,Charleston,Grice,Female,5.59,266,1,3,
-1,3,I4,Charleston,Grice,Female,4.1,266,1,3.5,
-2,1,B7,Charleston,Grice,Female,6.7,266,1,3,
-2,2,H2,Charleston,Grice,Female,6.45,266,1,2.5,
-2,2,H8,Charleston,Grice,Female,6.22,290,1,3.5,
-2,3,I7,Charleston,Grice,Female,7.19,297,1,5,
-1,1,C2,Charleston,Grice,Male,6.41,321,1,5.5,
-2,2,G2,Charleston,Grice,Female,5.05,362,1,6,
-3,3,K5,Charleston,Grice,Female,4.26,386,1,7,Molt
-1,3,L6,Charleston,Grice,Male,5.9,434,1,9.5,Molt
-1,1,C8,Charleston,Grice,Female,6.35,434,0,,Survived
-2,3,K7,Charleston,Bowens Island,Female,5.17,33,1,10,Molt
-2,3,I6,Charleston,Bowens Island,Male,7.69,177,1,7,
-2,3,L6,Charleston,Bowens Island,Female,6.7,194,1,4.5,
-3,2,G8,Charleston,Bowens Island,Male,5.94,225,1,5,
-3,3,J5,Charleston,Bowens Island,Male,7.15,225,1,5.5,
-1,1,C1,Charleston,Bowens Island,Male,5.73,242,1,3,
-2,1,B2,Charleston,Bowens Island,Male,5.28,242,1,3,
-2,3,J6,Charleston,Bowens Island,Male,4.85,242,1,3,
-3,1,B2,Charleston,Bowens Island,Female,8.26,242,1,2,
-3,1,A6,Charleston,Bowens Island,Female,5.17,249,1,5,
-3,2,F5,Charleston,Bowens Island,Female,4.91,249,1,4.5,
-1,1,A2,Charleston,Bowens Island,Male,7.44,266,1,3.5,
-1,1,D1,Charleston,Bowens Island,Male,4.86,266,1,3.5,
-1,2,G3,Charleston,Bowens Island,Male,7.01,266,1,3,
-1,3,K7,Charleston,Bowens Island,Female,6.95,273,1,8,
-2,1,C2,Charleston,Bowens Island,Female,6.99,273,1,7.5,
-3,1,A1,Charleston,Bowens Island,Male,9.78,273,1,7,
-3,2,H3,Charleston,Bowens Island,Male,4.27,273,1,6.5,
-3,3,K6,Charleston,Bowens Island,Female,4.59,290,1,3,
-1,2,E4,Charleston,Bowens Island,Female,5.94,338,1,5.5,
-1,2,E6,Charleston,Bowens Island,Male,7.74,338,1,5.5,
-2,2,F8,Charleston,Bowens Island,Female,5.74,338,1,5,
-2,2,F5,Charleston,Bowens Island,Male,5.19,362,1,6,Molt
-3,3,L7,Charleston,Bowens Island,Male,4.21,362,1,5.5,
-1,1,A1,Charleston,Bowens Island,Female,4.61,386,1,7.5,Molt
-2,1,B1,Charleston,Bowens Island,Female,5.03,386,1,7.5,Molt
-2,2,F4,Charleston,Bowens Island,Male,5.38,386,1,7,Molt
-3,1,A3,Charleston,Bowens Island,Female,5.42,434,1,9.5,Molt
-1,3,I7,Charleston,Bowens Island,Female,6.07,434,0,,Survived
-1,3,K5,Charleston,Bowens Island,Female,5.56,434,0,,Survived
-1,1,D2,Hilton Head,Pinckney,Female,4.88,74,1,9.5,Molt
-2,2,F7,Hilton Head,Pinckney,Male,8.12,98,1,9.7,air temp
-3,2,G2,Hilton Head,Pinckney,Male,9.7,129,1,6.7,air temp
-3,2,G6,Hilton Head,Pinckney,Male,7.45,129,1,6.7,air temp
-1,2,F7,Hilton Head,Pinckney,Male,7.79,146,1,7,
-1,1,A3,Hilton Head,Pinckney,Male,7.69,170,1,5,
-1,3,J8,Hilton Head,Pinckney,Male,5.65,170,1,5.5,
-2,2,F1,Hilton Head,Pinckney,Male,8.08,170,1,4.5,
-1,3,L7,Hilton Head,Pinckney,Female,5.78,194,1,5,
-2,3,J8,Hilton Head,Pinckney,Male,8.44,194,1,4.5,
-3,3,J3,Hilton Head,Pinckney,Female,5.78,201,1,5,
-1,1,C7,Hilton Head,Pinckney,Male,8.86,218,1,4.5,
-1,2,E8,Hilton Head,Pinckney,Female,5.1,218,1,3.5,
-2,1,A8,Hilton Head,Pinckney,Male,6.82,218,1,4,
-2,1,C7,Hilton Head,Pinckney,Male,7.57,218,1,4,
-2,2,E5,Hilton Head,Pinckney,Male,5.74,218,1,3,
-3,3,I4,Hilton Head,Pinckney,Female,8.39,218,1,2.5,
-3,3,K8,Hilton Head,Pinckney,Male,7.71,218,1,2.5,
-3,2,E5,Hilton Head,Pinckney,Male,7.9,225,1,5,
-3,2,F7,Hilton Head,Pinckney,Female,6.12,225,1,5,
-3,2,G1,Hilton Head,Pinckney,Male,4.74,249,1,4.5,
-3,3,L3,Hilton Head,Pinckney,Male,6.22,249,1,5,
-2,1,A6,Hilton Head,Pinckney,Female,6.84,266,1,3,
-3,2,E8,Hilton Head,Pinckney,Male,4.05,266,1,2.5,
-3,3,J2,Hilton Head,Pinckney,Female,5.9,273,1,7,
-1,1,A6,Hilton Head,Pinckney,Male,4.85,290,1,4,
-2,2,H7,Hilton Head,Pinckney,Female,5.59,290,1,3.5,
-1,2,E7,Hilton Head,Pinckney,Female,7.03,314,1,5,
-2,1,C8,Hilton Head,Pinckney,Male,3.23,321,1,5,
-2,1,D8,Hilton Head,Pinckney,Female,4.87,321,1,5,
-2,3,K8,Hilton Head,Pinckney,Female,6.95,321,1,5,
-1,3,J2,Hilton Head,Pinckney,Female,5.17,362,1,7,
-2,2,G1,Hilton Head,Pinckney,Female,5.57,362,1,6,
-3,3,J7,Hilton Head,Pinckney,Female,5.79,362,1,5.5,
-2,1,D2,Hilton Head,Pinckney,Female,4.35,386,1,7.5,Molt
-3,2,E2,Savannah,Extension Office,Male,6.91,98,1,9.7,air temp
-2,1,C5,Savannah,Extension Office,Male,5.96,146,1,6,
-1,2,H1,Savannah,Extension Office,Male,8.23,170,1,5,
-2,3,J3,Savannah,Extension Office,Female,4.34,194,1,4.5,
-3,1,A7,Savannah,Extension Office,Female,5.32,201,1,5.5,
-2,2,G7,Savannah,Extension Office,Male,7.79,218,1,3,
-3,1,B6,Savannah,Extension Office,Male,7.01,218,1,2.5,
-3,3,J6,Savannah,Extension Office,Male,7.74,218,1,2.5,
-1,2,G7,Savannah,Extension Office,Male,4.17,225,1,7,
-3,2,F1,Savannah,Extension Office,Female,6.45,225,1,5,
-1,2,E5,Savannah,Extension Office,Female,4.43,242,1,3,
-1,2,G5,Savannah,Extension Office,Female,9.32,242,1,3,
-1,3,J5,Savannah,Extension Office,Male,7.98,242,1,3.5,
-2,2,E6,Savannah,Extension Office,Female,5.92,242,1,2,
-3,1,D1,Savannah,Extension Office,Female,6.63,242,1,2,
-3,3,I8,Savannah,Extension Office,Male,6.86,242,1,2.5,
-3,1,A8,Savannah,Extension Office,Female,5.11,249,1,5,
-1,1,C3,Savannah,Extension Office,Male,6.44,266,1,3.5,
-1,3,L2,Savannah,Extension Office,Female,6.75,266,1,3.5,
-2,3,I2,Savannah,Extension Office,Male,6.79,266,1,3,
-2,3,I8,Savannah,Extension Office,Male,9.77,266,1,3,
-2,1,B3,Savannah,Extension Office,Female,4.48,273,1,7.5,
-3,2,E3,Savannah,Extension Office,Male,4.47,290,1,3,
-3,1,A4,Savannah,Extension Office,Female,5.16,314,1,4,
-2,2,H6,Savannah,Extension Office,Male,5.99,338,1,5,
-3,3,L1,Savannah,Extension Office,Male,6.28,338,1,5,
-2,2,G8,Savannah,Extension Office,Female,6.77,362,1,6,
-3,2,H1,Savannah,Extension Office,Female,4.44,362,1,6,
-3,3,J8,Savannah,Extension Office,Male,4.04,362,1,5.5,
-1,1,B3,Savannah,Extension Office,Female,5.57,386,1,7.5,Molt
-2,1,A1,Savannah,Extension Office,Male,7.19,386,1,7.5,Molt
-1,1,A4,Savannah,Extension Office,Female,7.25,410,1,7.5,Molt
-1,3,J6,Savannah,Extension Office,Male,4.6,434,0,,Survived
-2,3,L8,Savannah,Extension Office,Female,7.44,434,0,,Survived
-1,1,B8,Savannah,Roebling House,Female,5.84,153,1,7,
-2,1,A7,Savannah,Roebling House,Female,9.17,170,1,4.5,
-3,2,E1,Savannah,Roebling House,Male,7.21,194,1,3,
-3,2,H8,Savannah,Roebling House,Female,5.63,194,1,3,
-2,1,A5,Savannah,Roebling House,Male,3.98,201,1,6.5,
-3,2,G7,Savannah,Roebling House,Female,4.94,201,1,5,
-1,3,I8,Savannah,Roebling House,Female,6.07,218,1,4.5,
-1,3,K1,Savannah,Roebling House,Male,7.35,218,1,4.5,
-2,1,C6,Savannah,Roebling House,Male,6.7,218,1,4,
-3,2,E4,Savannah,Roebling House,Male,7.38,218,1,2,
-3,3,I6,Savannah,Roebling House,Male,7.36,218,1,2.5,
-3,2,H6,Savannah,Roebling House,Female,5.22,225,1,5,
-1,1,A5,Savannah,Roebling House,Female,6.55,242,1,3,
-1,1,A7,Savannah,Roebling House,Male,8.01,242,1,3,
-1,2,G2,Savannah,Roebling House,Male,4.94,242,1,3,
-1,2,H8,Savannah,Roebling House,Male,7.14,242,1,3,
-2,2,G5,Savannah,Roebling House,Female,7.51,242,1,2,
-2,3,I4,Savannah,Roebling House,Male,7.66,242,1,3,
-3,2,G3,Savannah,Roebling House,Male,4.92,242,1,2,
-3,3,I5,Savannah,Roebling House,Male,9.03,242,1,2.5,
-1,2,H2,Savannah,Roebling House,Female,7.33,249,1,5.5,
-2,1,B8,Savannah,Roebling House,Female,6.59,249,1,5.5,
-2,3,J5,Savannah,Roebling House,Female,5.43,249,1,5.5,
-2,3,K6,Savannah,Roebling House,Male,8.61,249,1,5.5,
-3,3,I2,Savannah,Roebling House,Female,4.86,266,1,2.5,
-2,3,K5,Savannah,Roebling House,Female,5.17,273,1,7.5,
-1,2,E2,Savannah,Roebling House,Male,6.87,290,1,4,
-2,3,L7,Savannah,Roebling House,Female,6.71,290,1,4,
-3,1,C1,Savannah,Roebling House,Female,3.86,321,1,4.5,
-1,3,I6,Savannah,Roebling House,Female,5.72,362,1,7,
-1,3,L1,Savannah,Roebling House,Male,6.8,362,1,7,
-2,3,L1,Savannah,Roebling House,Male,5.21,362,1,6.5,
-1,1,D6,Savannah,Roebling House,Female,5.85,386,1,7.5,Molt
-1,1,A8,Savannah,Roebling House,Female,5.58,410,1,7.5,Molt
-2,3,L3,Savannah,Roebling House,Male,5.77,410,1,7.5,Molt
-1,2,F3,Savannah,Roebling House,Female,6.41,434,0,,Survived
-3,2,H2,Hilton Head,Trask,Male,5.93,26,1,12.9,air temp
-2,1,C1,Hilton Head,Trask,Female,5.39,57,1,10.04,air temp
-1,1,D3,Hilton Head,Trask,Male,6.81,146,1,7,
-3,1,A2,Hilton Head,Trask,Female,7.81,153,1,6.5,
-1,1,B4,Hilton Head,Trask,Male,9.56,170,1,5,
-2,2,E3,Hilton Head,Trask,Male,9.49,170,1,4.5,
-3,1,B8,Hilton Head,Trask,Male,9.64,170,1,4.5,
-3,2,F3,Hilton Head,Trask,Male,6.01,170,1,4.5,
-1,1,B1,Hilton Head,Trask,Male,3.77,194,1,5,
-1,1,B6,Hilton Head,Trask,Male,5.57,194,1,5,
-3,1,B3,Hilton Head,Trask,Female,5.97,194,1,3,
-3,2,E7,Hilton Head,Trask,Female,5.37,194,1,3,
-3,3,I1,Hilton Head,Trask,Male,4.64,218,1,2.5,
-1,2,F2,Hilton Head,Trask,Male,10.11,225,1,7,
-2,1,D7,Hilton Head,Trask,Male,7.26,225,1,7,
-2,1,D1,Hilton Head,Trask,Female,4.89,242,1,3,
-3,1,B1,Hilton Head,Trask,Female,4.08,242,1,2,
-2,2,H3,Hilton Head,Trask,Female,4.54,266,1,2.5,
-2,1,A3,Hilton Head,Trask,Male,7.91,273,1,7.5,
-2,1,D6,Hilton Head,Trask,Male,6.32,273,1,7.5,
-2,3,K1,Hilton Head,Trask,Female,4.61,273,1,7.5,
-1,3,I1,Hilton Head,Trask,Male,5.42,290,1,4.5,
-2,2,E4,Hilton Head,Trask,Male,8.26,290,1,3.5,
-3,2,F6,Hilton Head,Trask,Male,5.56,290,1,3,
-3,3,I3,Hilton Head,Trask,Female,5.36,290,1,3,
-3,1,C7,Hilton Head,Trask,Male,4.31,321,1,4.5,
-3,3,K2,Hilton Head,Trask,Female,5.6,321,1,4.5,
-1,2,H7,Hilton Head,Trask,Male,4.39,362,1,6.5,Molt
-1,2,E3,Hilton Head,Trask,Female,5.14,386,1,7.5,Molt
-1,3,J7,Hilton Head,Trask,Female,4.42,386,1,7.5,Molt
-1,3,L8,Hilton Head,Trask,Female,5.94,410,1,7.5,Molt
-2,1,B5,Hilton Head,Trask,Female,6.32,410,1,7.5,Molt
-1,1,D8,Hilton Head,Trask,Female,5.33,434,0,,Survived
-1,2,F6,Hilton Head,Trask,Female,4.75,434,0,,Survived
-1,3,J1,Hilton Head,Trask,Female,6.82,434,0,,Survived
+Block,Tray,Well,Region,Location,Site,Sex,CW,Duration,Status,Temperature,Notes
+2,1,D3,North,Baruch,Bly Creek,Male,5.98,74,1,10.03,air temp
+3,2,G5,North,Baruch,Bly Creek,Female,4.78,122,1,8.2,air temp
+2,1,C3,North,Baruch,Bly Creek,Female,4.92,218,1,4,
+3,2,E6,North,Baruch,Bly Creek,Male,5.46,218,1,2,
+1,3,I2,North,Baruch,Bly Creek,Male,11.33,242,1,3.5,
+1,3,K8,North,Baruch,Bly Creek,Male,6.64,242,1,3.5,
+3,1,C6,North,Baruch,Bly Creek,Male,7.08,249,1,5,
+3,1,D8,North,Baruch,Bly Creek,Male,4.81,249,1,5,
+3,3,J1,North,Baruch,Bly Creek,Female,9.62,249,1,5,
+3,3,K3,North,Baruch,Bly Creek,Male,5.78,249,1,5,
+1,3,K2,North,Baruch,Bly Creek,Male,10.53,273,1,8,
+2,1,A4,North,Baruch,Bly Creek,Female,6.93,273,1,7.5,
+2,2,F3,North,Baruch,Bly Creek,Male,5.96,273,1,7,
+3,1,B5,North,Baruch,Bly Creek,Male,6.02,273,1,7,
+3,1,C2,North,Baruch,Bly Creek,Male,5.88,273,1,7,
+3,3,K7,North,Baruch,Bly Creek,Female,4.72,290,1,3,
+1,2,G1,North,Baruch,Bly Creek,Male,6.26,314,1,5,
+3,3,J4,North,Baruch,Bly Creek,Female,4.75,338,1,5,
+1,1,D7,North,Baruch,Bly Creek,Female,5.96,362,1,6.5,Molt
+1,3,K3,North,Baruch,Bly Creek,Male,5.2,362,1,7,Molt
+2,3,J2,North,Baruch,Bly Creek,Female,5.71,362,1,6.5,
+2,2,E1,North,Baruch,Bly Creek,Male,6.71,386,1,7,Molt
+1,2,E1,North,Baruch,Bly Creek,Female,5.19,393,1,11,Molt
+2,1,B4,North,Baruch,Bly Creek,Female,5.37,393,1,10.5,Molt
+1,1,B7,North,Baruch,Bly Creek,Female,6.25,410,1,7.5,Molt
+1,3,K6,North,Baruch,Bly Creek,Female,7.71,410,1,7.5,Molt
+2,3,I5,North,Baruch,Bly Creek,Female,5.76,410,1,7.5,Molt
+2,3,J1,North,Baruch,Bly Creek,Male,4.81,410,1,7.5,Molt
+1,1,B5,North,Baruch,Bly Creek,Female,6.51,434,1,9.5,Molt
+2,3,K3,North,Baruch,Bly Creek,Male,8.37,434,0,,Survived
+2,2,E2,North,Baruch,Town Creek,Male,6.6,129,1,6.7,air temp
+3,2,F8,North,Baruch,Town Creek,Male,11.51,129,1,6.7,air temp
+1,3,I5,North,Baruch,Town Creek,Male,11.22,146,1,7,
+3,1,D3,North,Baruch,Town Creek,Male,8.38,194,1,3,
+3,3,L6,North,Baruch,Town Creek,Male,5.91,201,1,5,
+3,3,L8,North,Baruch,Town Creek,Male,7.27,218,1,2.5,
+1,2,F5,North,Baruch,Town Creek,Female,4.75,225,1,7,
+2,2,G6,North,Baruch,Town Creek,Female,7.83,242,1,2,
+3,3,L2,North,Baruch,Town Creek,Female,6.82,242,1,2.5,
+2,2,G3,North,Baruch,Town Creek,Male,4.63,249,1,5,
+2,3,I1,North,Baruch,Town Creek,Male,7.56,249,1,5.5,
+2,3,J7,North,Baruch,Town Creek,Male,8.25,249,1,5.5,
+3,1,B7,North,Baruch,Town Creek,Male,8.39,249,1,5,
+3,1,D7,North,Baruch,Town Creek,Female,6.71,249,1,5,
+2,3,K2,North,Baruch,Town Creek,Female,5.5,273,1,7.5,
+3,1,C5,North,Baruch,Town Creek,Female,5.96,273,1,7,
+1,2,F1,North,Baruch,Town Creek,Male,6.06,290,1,4,
+1,3,J3,North,Baruch,Town Creek,Male,7.52,290,1,4.5,
+1,2,F8,North,Baruch,Town Creek,Male,4.6,297,1,5.5,
+1,1,C6,North,Baruch,Town Creek,Female,4.93,314,1,5,
+1,3,I3,North,Baruch,Town Creek,Male,6.15,314,1,5,
+3,1,D2,North,Baruch,Town Creek,Female,6.02,314,1,4,
+2,2,F6,North,Baruch,Town Creek,Female,8.84,321,1,5,
+2,2,H1,North,Baruch,Town Creek,Male,5.9,338,1,5,
+2,2,F2,North,Baruch,Town Creek,Female,5.65,386,1,7,Molt
+2,3,J4,North,Baruch,Town Creek,Female,6.04,410,1,7.5,Molt
+3,3,K1,North,Baruch,Town Creek,Female,7.18,410,1,7,Molt
+1,1,B2,North,Baruch,Town Creek,Female,6.26,434,1,9.5,Molt
+1,3,L3,North,Baruch,Town Creek,Female,6.38,434,1,9.5,Molt
+2,1,A2,North,Baruch,Town Creek,Female,7.24,434,1,9.5,Molt
+1,1,C5,North,Baruch,Town Creek,Female,5.93,434,0,,Survived
+1,2,H6,North,Charleston,Grice,Male,10.59,74,1,9.5,
+1,2,F4,North,Charleston,Grice,Male,4.69,153,1,7,
+3,3,I7,North,Charleston,Grice,Female,7.8,170,1,5,
+2,3,I3,North,Charleston,Grice,Male,8.74,194,1,4.5,
+3,1,B4,North,Charleston,Grice,Male,5.68,194,1,3,
+3,2,H7,North,Charleston,Grice,Male,5.03,194,1,3,
+3,2,F2,North,Charleston,Grice,Male,3.56,201,1,5,
+3,2,F4,North,Charleston,Grice,Male,6.6,201,1,5,
+1,3,J4,North,Charleston,Grice,Male,6.92,218,1,4.5,
+2,3,L2,North,Charleston,Grice,Male,6.26,218,1,3.5,
+3,1,C3,North,Charleston,Grice,Male,7.7,225,1,5.5,
+3,1,C8,North,Charleston,Grice,Female,4.34,225,1,5.5,
+2,2,E8,North,Charleston,Grice,Male,8.63,242,1,2,
+3,1,A5,North,Charleston,Grice,Female,5.11,242,1,2,
+3,1,D6,North,Charleston,Grice,Female,5.52,242,1,2,
+1,2,G6,North,Charleston,Grice,Female,5.46,249,1,5.5,
+1,2,G8,North,Charleston,Grice,Female,5.96,249,1,5.5,
+2,2,E7,North,Charleston,Grice,Male,4.56,249,1,5,
+1,2,H3,North,Charleston,Grice,Female,5.59,266,1,3,
+1,3,I4,North,Charleston,Grice,Female,4.1,266,1,3.5,
+2,1,B7,North,Charleston,Grice,Female,6.7,266,1,3,
+2,2,H2,North,Charleston,Grice,Female,6.45,266,1,2.5,
+2,2,H8,North,Charleston,Grice,Female,6.22,290,1,3.5,
+2,3,I7,North,Charleston,Grice,Female,7.19,297,1,5,
+1,1,C2,North,Charleston,Grice,Male,6.41,321,1,5.5,
+2,2,G2,North,Charleston,Grice,Female,5.05,362,1,6,
+3,3,K5,North,Charleston,Grice,Female,4.26,386,1,7,Molt
+1,3,L6,North,Charleston,Grice,Male,5.9,434,1,9.5,Molt
+1,1,C8,North,Charleston,Grice,Female,6.35,434,0,,Survived
+2,3,K7,North,Charleston,Bowens Island,Female,5.17,33,1,10,Molt
+2,3,I6,North,Charleston,Bowens Island,Male,7.69,177,1,7,
+2,3,L6,North,Charleston,Bowens Island,Female,6.7,194,1,4.5,
+3,2,G8,North,Charleston,Bowens Island,Male,5.94,225,1,5,
+3,3,J5,North,Charleston,Bowens Island,Male,7.15,225,1,5.5,
+1,1,C1,North,Charleston,Bowens Island,Male,5.73,242,1,3,
+2,1,B2,North,Charleston,Bowens Island,Male,5.28,242,1,3,
+2,3,J6,North,Charleston,Bowens Island,Male,4.85,242,1,3,
+3,1,B2,North,Charleston,Bowens Island,Female,8.26,242,1,2,
+3,1,A6,North,Charleston,Bowens Island,Female,5.17,249,1,5,
+3,2,F5,North,Charleston,Bowens Island,Female,4.91,249,1,4.5,
+1,1,A2,North,Charleston,Bowens Island,Male,7.44,266,1,3.5,
+1,1,D1,North,Charleston,Bowens Island,Male,4.86,266,1,3.5,
+1,2,G3,North,Charleston,Bowens Island,Male,7.01,266,1,3,
+1,3,K7,North,Charleston,Bowens Island,Female,6.95,273,1,8,
+2,1,C2,North,Charleston,Bowens Island,Female,6.99,273,1,7.5,
+3,1,A1,North,Charleston,Bowens Island,Male,9.78,273,1,7,
+3,2,H3,North,Charleston,Bowens Island,Male,4.27,273,1,6.5,
+3,3,K6,North,Charleston,Bowens Island,Female,4.59,290,1,3,
+1,2,E4,North,Charleston,Bowens Island,Female,5.94,338,1,5.5,
+1,2,E6,North,Charleston,Bowens Island,Male,7.74,338,1,5.5,
+2,2,F8,North,Charleston,Bowens Island,Female,5.74,338,1,5,
+2,2,F5,North,Charleston,Bowens Island,Male,5.19,362,1,6,Molt
+3,3,L7,North,Charleston,Bowens Island,Male,4.21,362,1,5.5,
+1,1,A1,North,Charleston,Bowens Island,Female,4.61,386,1,7.5,Molt
+2,1,B1,North,Charleston,Bowens Island,Female,5.03,386,1,7.5,Molt
+2,2,F4,North,Charleston,Bowens Island,Male,5.38,386,1,7,Molt
+3,1,A3,North,Charleston,Bowens Island,Female,5.42,434,1,9.5,Molt
+1,3,I7,North,Charleston,Bowens Island,Female,6.07,434,0,,Survived
+1,3,K5,North,Charleston,Bowens Island,Female,5.56,434,0,,Survived
+1,1,D2,South,Hilton Head,Pinckney,Female,4.88,74,1,9.5,Molt
+2,2,F7,South,Hilton Head,Pinckney,Male,8.12,98,1,9.7,air temp
+3,2,G2,South,Hilton Head,Pinckney,Male,9.7,129,1,6.7,air temp
+3,2,G6,South,Hilton Head,Pinckney,Male,7.45,129,1,6.7,air temp
+1,2,F7,South,Hilton Head,Pinckney,Male,7.79,146,1,7,
+1,1,A3,South,Hilton Head,Pinckney,Male,7.69,170,1,5,
+1,3,J8,South,Hilton Head,Pinckney,Male,5.65,170,1,5.5,
+2,2,F1,South,Hilton Head,Pinckney,Male,8.08,170,1,4.5,
+1,3,L7,South,Hilton Head,Pinckney,Female,5.78,194,1,5,
+2,3,J8,South,Hilton Head,Pinckney,Male,8.44,194,1,4.5,
+3,3,J3,South,Hilton Head,Pinckney,Female,5.78,201,1,5,
+1,1,C7,South,Hilton Head,Pinckney,Male,8.86,218,1,4.5,
+1,2,E8,South,Hilton Head,Pinckney,Female,5.1,218,1,3.5,
+2,1,A8,South,Hilton Head,Pinckney,Male,6.82,218,1,4,
+2,1,C7,South,Hilton Head,Pinckney,Male,7.57,218,1,4,
+2,2,E5,South,Hilton Head,Pinckney,Male,5.74,218,1,3,
+3,3,I4,South,Hilton Head,Pinckney,Female,8.39,218,1,2.5,
+3,3,K8,South,Hilton Head,Pinckney,Male,7.71,218,1,2.5,
+3,2,E5,South,Hilton Head,Pinckney,Male,7.9,225,1,5,
+3,2,F7,South,Hilton Head,Pinckney,Female,6.12,225,1,5,
+3,2,G1,South,Hilton Head,Pinckney,Male,4.74,249,1,4.5,
+3,3,L3,South,Hilton Head,Pinckney,Male,6.22,249,1,5,
+2,1,A6,South,Hilton Head,Pinckney,Female,6.84,266,1,3,
+3,2,E8,South,Hilton Head,Pinckney,Male,4.05,266,1,2.5,
+3,3,J2,South,Hilton Head,Pinckney,Female,5.9,273,1,7,
+1,1,A6,South,Hilton Head,Pinckney,Male,4.85,290,1,4,
+2,2,H7,South,Hilton Head,Pinckney,Female,5.59,290,1,3.5,
+1,2,E7,South,Hilton Head,Pinckney,Female,7.03,314,1,5,
+2,1,C8,South,Hilton Head,Pinckney,Male,3.23,321,1,5,
+2,1,D8,South,Hilton Head,Pinckney,Female,4.87,321,1,5,
+2,3,K8,South,Hilton Head,Pinckney,Female,6.95,321,1,5,
+1,3,J2,South,Hilton Head,Pinckney,Female,5.17,362,1,7,
+2,2,G1,South,Hilton Head,Pinckney,Female,5.57,362,1,6,
+3,3,J7,South,Hilton Head,Pinckney,Female,5.79,362,1,5.5,
+2,1,D2,South,Hilton Head,Pinckney,Female,4.35,386,1,7.5,Molt
+3,2,E2,South,Savannah,Extension Office,Male,6.91,98,1,9.7,air temp
+2,1,C5,South,Savannah,Extension Office,Male,5.96,146,1,6,
+1,2,H1,South,Savannah,Extension Office,Male,8.23,170,1,5,
+2,3,J3,South,Savannah,Extension Office,Female,4.34,194,1,4.5,
+3,1,A7,South,Savannah,Extension Office,Female,5.32,201,1,5.5,
+2,2,G7,South,Savannah,Extension Office,Male,7.79,218,1,3,
+3,1,B6,South,Savannah,Extension Office,Male,7.01,218,1,2.5,
+3,3,J6,South,Savannah,Extension Office,Male,7.74,218,1,2.5,
+1,2,G7,South,Savannah,Extension Office,Male,4.17,225,1,7,
+3,2,F1,South,Savannah,Extension Office,Female,6.45,225,1,5,
+1,2,E5,South,Savannah,Extension Office,Female,4.43,242,1,3,
+1,2,G5,South,Savannah,Extension Office,Female,9.32,242,1,3,
+1,3,J5,South,Savannah,Extension Office,Male,7.98,242,1,3.5,
+2,2,E6,South,Savannah,Extension Office,Female,5.92,242,1,2,
+3,1,D1,South,Savannah,Extension Office,Female,6.63,242,1,2,
+3,3,I8,South,Savannah,Extension Office,Male,6.86,242,1,2.5,
+3,1,A8,South,Savannah,Extension Office,Female,5.11,249,1,5,
+1,1,C3,South,Savannah,Extension Office,Male,6.44,266,1,3.5,
+1,3,L2,South,Savannah,Extension Office,Female,6.75,266,1,3.5,
+2,3,I2,South,Savannah,Extension Office,Male,6.79,266,1,3,
+2,3,I8,South,Savannah,Extension Office,Male,9.77,266,1,3,
+2,1,B3,South,Savannah,Extension Office,Female,4.48,273,1,7.5,
+3,2,E3,South,Savannah,Extension Office,Male,4.47,290,1,3,
+3,1,A4,South,Savannah,Extension Office,Female,5.16,314,1,4,
+2,2,H6,South,Savannah,Extension Office,Male,5.99,338,1,5,
+3,3,L1,South,Savannah,Extension Office,Male,6.28,338,1,5,
+2,2,G8,South,Savannah,Extension Office,Female,6.77,362,1,6,
+3,2,H1,South,Savannah,Extension Office,Female,4.44,362,1,6,
+3,3,J8,South,Savannah,Extension Office,Male,4.04,362,1,5.5,
+1,1,B3,South,Savannah,Extension Office,Female,5.57,386,1,7.5,Molt
+2,1,A1,South,Savannah,Extension Office,Male,7.19,386,1,7.5,Molt
+1,1,A4,South,Savannah,Extension Office,Female,7.25,410,1,7.5,Molt
+1,3,J6,South,Savannah,Extension Office,Male,4.6,434,0,,Survived
+2,3,L8,South,Savannah,Extension Office,Female,7.44,434,0,,Survived
+1,1,B8,South,Savannah,Roebling House,Female,5.84,153,1,7,
+2,1,A7,South,Savannah,Roebling House,Female,9.17,170,1,4.5,
+3,2,E1,South,Savannah,Roebling House,Male,7.21,194,1,3,
+3,2,H8,South,Savannah,Roebling House,Female,5.63,194,1,3,
+2,1,A5,South,Savannah,Roebling House,Male,3.98,201,1,6.5,
+3,2,G7,South,Savannah,Roebling House,Female,4.94,201,1,5,
+1,3,I8,South,Savannah,Roebling House,Female,6.07,218,1,4.5,
+1,3,K1,South,Savannah,Roebling House,Male,7.35,218,1,4.5,
+2,1,C6,South,Savannah,Roebling House,Male,6.7,218,1,4,
+3,2,E4,South,Savannah,Roebling House,Male,7.38,218,1,2,
+3,3,I6,South,Savannah,Roebling House,Male,7.36,218,1,2.5,
+3,2,H6,South,Savannah,Roebling House,Female,5.22,225,1,5,
+1,1,A5,South,Savannah,Roebling House,Female,6.55,242,1,3,
+1,1,A7,South,Savannah,Roebling House,Male,8.01,242,1,3,
+1,2,G2,South,Savannah,Roebling House,Male,4.94,242,1,3,
+1,2,H8,South,Savannah,Roebling House,Male,7.14,242,1,3,
+2,2,G5,South,Savannah,Roebling House,Female,7.51,242,1,2,
+2,3,I4,South,Savannah,Roebling House,Male,7.66,242,1,3,
+3,2,G3,South,Savannah,Roebling House,Male,4.92,242,1,2,
+3,3,I5,South,Savannah,Roebling House,Male,9.03,242,1,2.5,
+1,2,H2,South,Savannah,Roebling House,Female,7.33,249,1,5.5,
+2,1,B8,South,Savannah,Roebling House,Female,6.59,249,1,5.5,
+2,3,J5,South,Savannah,Roebling House,Female,5.43,249,1,5.5,
+2,3,K6,South,Savannah,Roebling House,Male,8.61,249,1,5.5,
+3,3,I2,South,Savannah,Roebling House,Female,4.86,266,1,2.5,
+2,3,K5,South,Savannah,Roebling House,Female,5.17,273,1,7.5,
+1,2,E2,South,Savannah,Roebling House,Male,6.87,290,1,4,
+2,3,L7,South,Savannah,Roebling House,Female,6.71,290,1,4,
+3,1,C1,South,Savannah,Roebling House,Female,3.86,321,1,4.5,
+1,3,I6,South,Savannah,Roebling House,Female,5.72,362,1,7,
+1,3,L1,South,Savannah,Roebling House,Male,6.8,362,1,7,
+2,3,L1,South,Savannah,Roebling House,Male,5.21,362,1,6.5,
+1,1,D6,South,Savannah,Roebling House,Female,5.85,386,1,7.5,Molt
+1,1,A8,South,Savannah,Roebling House,Female,5.58,410,1,7.5,Molt
+2,3,L3,South,Savannah,Roebling House,Male,5.77,410,1,7.5,Molt
+1,2,F3,South,Savannah,Roebling House,Female,6.41,434,0,,Survived
+3,2,H2,South,Hilton Head,Trask,Male,5.93,26,1,12.9,air temp
+2,1,C1,South,Hilton Head,Trask,Female,5.39,57,1,10.04,air temp
+1,1,D3,South,Hilton Head,Trask,Male,6.81,146,1,7,
+3,1,A2,South,Hilton Head,Trask,Female,7.81,153,1,6.5,
+1,1,B4,South,Hilton Head,Trask,Male,9.56,170,1,5,
+2,2,E3,South,Hilton Head,Trask,Male,9.49,170,1,4.5,
+3,1,B8,South,Hilton Head,Trask,Male,9.64,170,1,4.5,
+3,2,F3,South,Hilton Head,Trask,Male,6.01,170,1,4.5,
+1,1,B1,South,Hilton Head,Trask,Male,3.77,194,1,5,
+1,1,B6,South,Hilton Head,Trask,Male,5.57,194,1,5,
+3,1,B3,South,Hilton Head,Trask,Female,5.97,194,1,3,
+3,2,E7,South,Hilton Head,Trask,Female,5.37,194,1,3,
+3,3,I1,South,Hilton Head,Trask,Male,4.64,218,1,2.5,
+1,2,F2,South,Hilton Head,Trask,Male,10.11,225,1,7,
+2,1,D7,South,Hilton Head,Trask,Male,7.26,225,1,7,
+2,1,D1,South,Hilton Head,Trask,Female,4.89,242,1,3,
+3,1,B1,South,Hilton Head,Trask,Female,4.08,242,1,2,
+2,2,H3,South,Hilton Head,Trask,Female,4.54,266,1,2.5,
+2,1,A3,South,Hilton Head,Trask,Male,7.91,273,1,7.5,
+2,1,D6,South,Hilton Head,Trask,Male,6.32,273,1,7.5,
+2,3,K1,South,Hilton Head,Trask,Female,4.61,273,1,7.5,
+1,3,I1,South,Hilton Head,Trask,Male,5.42,290,1,4.5,
+2,2,E4,South,Hilton Head,Trask,Male,8.26,290,1,3.5,
+3,2,F6,South,Hilton Head,Trask,Male,5.56,290,1,3,
+3,3,I3,South,Hilton Head,Trask,Female,5.36,290,1,3,
+3,1,C7,South,Hilton Head,Trask,Male,4.31,321,1,4.5,
+3,3,K2,South,Hilton Head,Trask,Female,5.6,321,1,4.5,
+1,2,H7,South,Hilton Head,Trask,Male,4.39,362,1,6.5,Molt
+1,2,E3,South,Hilton Head,Trask,Female,5.14,386,1,7.5,Molt
+1,3,J7,South,Hilton Head,Trask,Female,4.42,386,1,7.5,Molt
+1,3,L8,South,Hilton Head,Trask,Female,5.94,410,1,7.5,Molt
+2,1,B5,South,Hilton Head,Trask,Female,6.32,410,1,7.5,Molt
+1,1,D8,South,Hilton Head,Trask,Female,5.33,434,0,,Survived
+1,2,F6,South,Hilton Head,Trask,Female,4.75,434,0,,Survived
+1,3,J1,South,Hilton Head,Trask,Female,6.82,434,0,,Survived
